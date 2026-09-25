@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>data_de_devolucao</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-18 21:24:52</sys_created_on>
+        <sys_id>50122397835b8710bd67e630ceaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>data_de_devolucao</sys_name>
+        <sys_package display_value="Frota" source="x_894125_frota">e24b5397831b8710bd67e630ceaad363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Frota">e24b5397831b8710bd67e630ceaad363</sys_scope>
+        <sys_update_name>sys_ui_policy_action_50122397835b8710bd67e630ceaad3a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-18 21:24:52</sys_updated_on>
+        <table>x_894125_frota_reserva</table>
+        <ui_policy display_value="Data de devolução nunca pode ser preenchida antes de data de retirada">02d16b57835b8710bd67e630ceaad359</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=50122397835b8710bd67e630ceaad3a7"/>
+</record_update>

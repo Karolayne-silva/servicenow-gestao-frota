@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_894125_frota_reserva</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_894125_frota_reserva">data_de_devolucaoISNOTEMPTY^EQ<item endquery="false" field="data_de_devolucao" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>data devolução &lt; data de retirada</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var data_retirada = new GlideDateTime(current.data_de_retirada);
+	var data_devolucao = new GlideDateTime(current.data_de_devolucao);
+
+	if(data_devolucao < data_retirada){
+		gs.addErrorMessage("Data de devolução não poder ser antes da data de retirada.");
+		current.setAbortAction(true);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 19:23:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a1220fe9832bc750bd67e630ceaad31f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>data devolução &lt; data de retirada</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Frota" source="x_894125_frota">e24b5397831b8710bd67e630ceaad363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Frota">e24b5397831b8710bd67e630ceaad363</sys_scope>
+        <sys_update_name>sys_script_a1220fe9832bc750bd67e630ceaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 19:34:40</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1220fe9832bc750bd67e630ceaad31f"/>
+</record_update>

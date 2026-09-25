@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ee5ddfdb831b8710bd67e630ceaad35a" label="Reserva" max_length="40" name="x_894125_frota_reserva" type="collection">
+        <element label="Veículo" max_length="32" name="veiculo" reference="x_894125_frota_veiculo" type="reference"/>
+        <element label="Data de retirada" max_length="40" name="data_de_retirada" type="glide_date"/>
+        <element choice="1" label="Status da reserva" max_length="40" name="status_da_reserva" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Solicitada" value="solicitada"/>
+                <element inactive_on_update="false" label="Concluída" value="concluida"/>
+                <element inactive_on_update="false" label="Aprovada" value="aprovada"/>
+                <element inactive_on_update="false" label="Rejeitada" value="rejeitada"/>
+            </choice>
+        </element>
+        <element label="Data de Devolução" max_length="40" name="data_de_devolucao" type="glide_date"/>
+        <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="solicitante"/>
+        </index>
+        <index name="index2">
+            <element name="veiculo"/>
+        </index>
+    </element>
+</database>

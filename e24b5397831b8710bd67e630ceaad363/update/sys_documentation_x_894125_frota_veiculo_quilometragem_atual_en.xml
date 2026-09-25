@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="quilometragem_atual" label="Quilometragem Atual" language="en" table="x_894125_frota_veiculo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>quilometragem_atual</element>
+            <help/>
+            <hint/>
+            <label>Quilometragem Atual</label>
+            <language>en</language>
+            <name>x_894125_frota_veiculo</name>
+            <plural>Quilometragem Atuals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-18 21:03:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Quilometragem Atual</sys_name>
+            <sys_package display_value="Frota" source="x_894125_frota">e24b5397831b8710bd67e630ceaad363</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Frota">e24b5397831b8710bd67e630ceaad363</sys_scope>
+            <sys_update_name>sys_documentation_x_894125_frota_veiculo_quilometragem_atual_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-18 21:03:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

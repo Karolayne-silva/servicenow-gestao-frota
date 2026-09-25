@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="64bbdbd7831b8710bd67e630ceaad344" label="Veiculo" max_length="40" name="x_894125_frota_veiculo" type="collection">
+        <element display="true" label="Modelo" max_length="200" name="modelo" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Disponível" sequence="100" value="disponivel"/>
+                <element inactive_on_update="false" label="Em Uso" sequence="300" value="em_uso"/>
+                <element inactive_on_update="false" label="Em Manutenção" sequence="200" value="em_manutencao"/>
+            </choice>
+        </element>
+        <element label="Quilometragem Atual" max_length="40" name="quilometragem_atual" type="integer"/>
+        <element label="Placa" max_length="100" name="placa" type="string"/>
+        <element label="Ano" max_length="4" name="ano" type="string"/>
+    </element>
+</database>

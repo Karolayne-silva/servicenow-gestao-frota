@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_894125_frota_reserva" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>solicitante</element>
+            <list_id display_value="x_894125_frota_reserva" element="NULL" name="x_894125_frota_reserva" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3886375083a78f10bd67e630ceaad341</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 01:27:33</sys_created_on>
+            <sys_id>3086775083a78f10bd67e630ceaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 01:27:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>veiculo</element>
+            <list_id display_value="x_894125_frota_reserva" element="NULL" name="x_894125_frota_reserva" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3886375083a78f10bd67e630ceaad341</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 01:27:33</sys_created_on>
+            <sys_id>b486775083a78f10bd67e630ceaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 01:27:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>data_de_retirada</element>
+            <list_id display_value="x_894125_frota_reserva" element="NULL" name="x_894125_frota_reserva" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3886375083a78f10bd67e630ceaad341</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 01:27:33</sys_created_on>
+            <sys_id>3c86775083a78f10bd67e630ceaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 01:27:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status_da_reserva</element>
+            <list_id display_value="x_894125_frota_reserva" element="NULL" name="x_894125_frota_reserva" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3886375083a78f10bd67e630ceaad341</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 01:27:33</sys_created_on>
+            <sys_id>b086775083a78f10bd67e630ceaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 01:27:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>data_de_devolucao</element>
+            <list_id display_value="x_894125_frota_reserva" element="NULL" name="x_894125_frota_reserva" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3886375083a78f10bd67e630ceaad341</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 01:27:33</sys_created_on>
+            <sys_id>3886775083a78f10bd67e630ceaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 01:27:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_894125_frota_reserva</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-22 01:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3886375083a78f10bd67e630ceaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_894125_frota_reserva</sys_name>
+            <sys_package display_value="Frota" source="x_894125_frota">e24b5397831b8710bd67e630ceaad363</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Frota">e24b5397831b8710bd67e630ceaad363</sys_scope>
+            <sys_update_name>sys_ui_list_x_894125_frota_reserva_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-22 01:27:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
