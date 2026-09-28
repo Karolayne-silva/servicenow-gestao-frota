@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Reserva</name>
+        <order>100</order>
+        <roles>x_894125_frota.reserva_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-18 21:04:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>366d531f831b8710bd67e630ceaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reserva</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Frota" source="x_894125_frota">e24b5397831b8710bd67e630ceaad363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Frota">e24b5397831b8710bd67e630ceaad363</sys_scope>
+        <sys_update_name>sys_app_application_366d531f831b8710bd67e630ceaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-18 21:04:00</sys_updated_on>
+        <title>Reserva</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Frota">e24b5397831b8710bd67e630ceaad363</application>
+        <file_path/>
+        <instance_id>3c973408ebff02d4cbbffceacad0cdf1</instance_id>
+        <instance_name>dev282125</instance_name>
+        <name>sys_app_application_366d531f831b8710bd67e630ceaad392</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Reserva</name><order>100</order><roles>x_894125_frota.reserva_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-18 21:04:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>366d531f831b8710bd67e630ceaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reserva</sys_name><sys_overrides/><sys_package display_value="Frota" source="x_894125_frota">e24b5397831b8710bd67e630ceaad363</sys_package><sys_policy/><sys_scope display_value="Frota">e24b5397831b8710bd67e630ceaad363</sys_scope><sys_update_name>sys_app_application_366d531f831b8710bd67e630ceaad392</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-18 21:04:00</sys_updated_on><title>Reserva</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1509580814</payload_hash>
+        <record_name>Reserva</record_name>
+        <reverted_from/>
+        <source>3d7b5f97831b8710bd67e630ceaad307</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-18 21:04:00</sys_created_on>
+        <sys_id>366d531f831b8710bd67e630ceaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0b65553b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-18 21:04:00</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>f26d531f9a1b8710fc1a9c110834b795</update_guid>
+        <update_guid_history>f26d531f9a1b8710fc1a9c110834b795:1509580814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reserva">47f197a983abc750bd67e630ceaad3c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 20:00:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>048d9336fcc045608f46b11e3d178640</sys_id>
+        <sys_metadata>366d531f831b8710bd67e630ceaad392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reserva</sys_name>
+        <sys_package display_value="Frota" source="x_894125_frota">e24b5397831b8710bd67e630ceaad363</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Frota">e24b5397831b8710bd67e630ceaad363</sys_scope>
+        <sys_scope_delete display_value="">00042fdadd78422a8002132535825ae4</sys_scope_delete>
+        <sys_update_name>sys_app_application_366d531f831b8710bd67e630ceaad392</sys_update_name>
+        <sys_update_version display_value="sys_app_application_366d531f831b8710bd67e630ceaad392">366d531f831b8710bd67e630ceaad396</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 20:00:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
